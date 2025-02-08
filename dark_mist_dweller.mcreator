@@ -1,0 +1,199 @@
+{
+  "mod_elements": [
+    {
+      "name": "Obscured",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obscured",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dark_mist_dweller/forge/biome_modifier/obscured_biome_modifier.json",
+          "src/main/java/net/mcreator/skinlessdweller/entity/ObscuredEntity.java",
+          "src/main/resources/assets/dark_mist_dweller/models/item/obscured_spawn_egg.json",
+          "src/main/java/net/mcreator/skinlessdweller/client/renderer/ObscuredRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "StandingStillObscuredPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "standing_still_obscured_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/skinlessdweller/procedures/StandingStillObscuredPlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MovingObscuredPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moving_obscured_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/skinlessdweller/procedures/MovingObscuredPlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DyingObscuredPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dying_obscured_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/skinlessdweller/procedures/DyingObscuredPlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnSpawnObscuredOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_spawn_obscured_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skinlessdweller/procedures/OnSpawnObscuredOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScreamerObscuredThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screamer_obscured_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skinlessdweller/procedures/ScreamerObscuredThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "chase",
+      "files": [
+        "scary-game-effect-131801"
+      ],
+      "category": "hostile",
+      "subtitle": "played while chase"
+    },
+    {
+      "name": "obscuredchasingu",
+      "files": [
+        "scary-ambience-17607"
+      ],
+      "category": "hostile",
+      "subtitle": "when saw you"
+    },
+    {
+      "name": "roar",
+      "files": [
+        "scary-monster-roar-2-6256"
+      ],
+      "category": "hostile",
+      "subtitle": "roar"
+    },
+    {
+      "name": "chasingcutversion",
+      "files": [
+        "scary-ambience-12"
+      ],
+      "category": "hostile",
+      "subtitle": "chase"
+    },
+    {
+      "name": "cutchase",
+      "files": [
+        "scary-ambience-17607_1"
+      ],
+      "category": "hostile",
+      "subtitle": "chase"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.obscuredchasingu": "sees you",
+      "subtitles.cutchase": "chase",
+      "item.skinless_dweller.obscured_spawn_egg": "Obscured Spawn Egg",
+      "subtitles.obscured": "Living noise",
+      "subtitles.chase": "chase",
+      "subtitles.chasingcutversion": "chase",
+      "subtitles.roar": "roar",
+      "subtitles.chasingcutvers": "chase",
+      "entity.skinless_dweller.obscured": "Obscured",
+      "item.dark_mist_dweller.obscured_spawn_egg": "Obscured Spawn Egg",
+      "entity.dark_mist_dweller.obscured": "Obscured"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dark_mist_dweller",
+    "modName": "Dark Mist Dweller",
+    "version": "0.0.1",
+    "description": "Somewhere in the dark we remain",
+    "author": "UberUser, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Custom license",
+    "serverSideOnly": false,
+    "modPicture": "45376737",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.skinlessdweller"
+  },
+  "mcreatorVersion": 202400452410
+}

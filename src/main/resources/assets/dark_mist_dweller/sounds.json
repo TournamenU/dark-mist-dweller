@@ -1,0 +1,47 @@
+{
+  "chase": {
+    "subtitle": "subtitles.chase",
+    "sounds": [
+      {
+        "name": "dark_mist_dweller:scary-game-effect-131801",
+        "stream": false
+      }
+    ]
+  },
+  "obscuredchasingu": {
+    "subtitle": "subtitles.obscuredchasingu",
+    "sounds": [
+      {
+        "name": "dark_mist_dweller:scary-ambience-17607",
+        "stream": false
+      }
+    ]
+  },
+  "roar": {
+    "subtitle": "subtitles.roar",
+    "sounds": [
+      {
+        "name": "dark_mist_dweller:scary-monster-roar-2-6256",
+        "stream": false
+      }
+    ]
+  },
+  "chasingcutversion": {
+    "subtitle": "subtitles.chasingcutversion",
+    "sounds": [
+      {
+        "name": "dark_mist_dweller:scary-ambience-12",
+        "stream": false
+      }
+    ]
+  },
+  "cutchase": {
+    "subtitle": "subtitles.cutchase",
+    "sounds": [
+      {
+        "name": "dark_mist_dweller:scary-ambience-17607_1",
+        "stream": false
+      }
+    ]
+  }
+}
